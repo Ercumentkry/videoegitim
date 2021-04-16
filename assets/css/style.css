@@ -1,0 +1,231 @@
+/* ------
+ * Author : KNS Information Technologies (adturk)
+ * PD Global. Copyright 2021. All Rights Reserved.
+ * ------ */
+
+@import url("https://fonts.googleapis.com/css2?family=Bai+Jamjuree:wght@300;400;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+html {
+  min-height: 100vh;
+}
+
+
+
+
+body.fixed {
+  margin: 0;
+  padding: 0;
+  font-family: "Bai Jamjuree", Arial, sans-serif;
+  color: #fff;
+  background-color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 300;
+  background: url(../images/bg.png) no-repeat center center;
+  background-size: cover;
+}
+
+.black-filtre,.blue-filtre {
+  background: rgb(0, 0, 0);
+  background: -moz-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.45) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.45) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  background: linear-gradient(
+    0deg,
+    rgba(0, 0, 0, 0.45) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#000000",endColorstr="#000000",GradientType=1);
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  left: 0;
+  top: 0;
+  overflow: hidden;
+
+}
+
+
+.header {
+  padding: 75px;
+  position: relative;
+  z-index: 999;
+}
+
+.nav {
+  float: right;
+}
+
+.nav ul li {
+  float: left;
+  list-style: none;
+  margin: 0px 25px;
+}
+.nav ul li a {
+  color: white;
+  font-size: 20px;
+  padding: 5px;
+  float: left;
+}
+
+.nav ul li:last-child {
+  margin-right: 0px;
+}
+.nav ul li a:hover{
+  color: #ff7c7c;
+  text-decoration: none;
+}
+
+.welcome {
+  color: #ff7c7c;
+  font-size: 84px;
+  font-weight: 700px;
+  letter-spacing: 5px;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  
+  
+
+}
+
+/* a,
+a img {
+  transition: all 300ms ease-in-out;
+  -webkit-transition: all 300ms ease-in-out;
+  -moz-transition: all 300ms ease-in-out;
+  -o-transition: all 300ms ease-in-out;
+  text-decoration: none !important;
+  outline: none;
+} */
+
+/*----- Video Eğitim FullPage -------*/
+
+body.fullpage {
+  margin: 0;
+  padding: 0;
+  font-family: "Bai Jamjuree", Arial, sans-serif;
+  color: #fff;
+  background-color: black;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 300;
+  background: #000;
+}
+
+.fullpage .cover {
+  width: 100%;
+  height: 100vh;
+  background: url(../images/bg.png) no-repeat center center;
+  background-size: cover;
+}
+
+.fullpage .header {
+  width: 100%;
+  position: absolute;
+}
+
+.fullpage .boxes {
+  background-color: black;
+  
+  
+  display: flex;
+  margin-top: 25px;
+  
+}
+.fullpage .boxes .box img{
+width: 100%;
+
+}
+.fullpage .boxes h1{
+  font-size: 18px;
+  text-align: center;
+
+}
+.fullpage .text{
+  font-size: 85px;
+  width: 100%;
+  min-height: 500px;
+  display: flex;
+  text-align: center;
+  color: #fff;
+  background: url(../images/php.jpg) no-repeat center;
+  background-size: cover;
+ font-family: 'Zen Dots', Arial;
+ position: relative;
+ 
+}
+
+
+
+.fullpage .sağ{
+  float: right;
+  background-color: dodgerblue;
+  color: black;
+  display: flex;
+  
+
+}
+.fullpage .sol{
+  background-color: dodgerblue;
+  color: #000;
+  padding: 0px;
+  margin: 0%;
+  
+  
+}
+.fullpage .alc{
+  margin-top: 100px;
+}
+.fullpage .yuk{
+  margin-bottom: 100px;
+}
+.boxes h1:hover{
+  color: chartreuse;
+ 
+  
+}
+.boxes h1{
+ 
+display: inline-block;
+width:fit-content;
+}
+
+.blue-filtre { 
+
+  background: rgb(26,123,194);
+  background: -moz-radial-gradient(circle, rgba(26,123,194,1) 0%, rgba(4,25,29,1) 61%);
+  background: -webkit-radial-gradient(circle, rgba(26,123,194,1) 0%, rgba(4,25,29,1) 61%);
+  background: radial-gradient(circle, rgba(26,123,194,1) 0%, rgba(4,25,29,1) 61%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#1a7bc2",endColorstr="#04191d",GradientType=1);
+  height: 100%;
+  opacity: .8;
+
+  }
+.fullpage .boxes h1:hover{
+  border-color: red;
+  color: #f1ff5d;
+  font-size: 1.1em;
+  box-shadow: 0 0.5em 0.7em -0.4em #f1ff5d;
+  transform: translateY(-0em);
+  cursor: pointer;
+}
+.button{
+  padding: 10px 40px;  
+  overflow:hidden;
+  z-index: 999;
+  
+}
